@@ -19,5 +19,4 @@ const displayTemp = temp => {
     const img=document.getElementById('weather');
     img.setAttribute('src',url)
     block.style.display="block";
-    console.log(temp);
 }
